@@ -87,7 +87,6 @@ def prediction(df_test, model):
 
 
 def main():
-  # main method
   testing_data_mle = 'testing_data_mle.csv'
   raw_data_test_data = load_test_data(testing_data_mle)
   df_test = preprocessing(raw_data_test_data)
